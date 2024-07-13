@@ -1,0 +1,118 @@
+/* Styling Components */
+li#wp-admin-bar-fluent_plus_addon {
+  height: 0;
+  padding: 0;
+}
+li#wp-admin-bar-fluent_plus_addon a {
+  background: #7757E6;
+  color: whitesmoke;
+}
+li#wp-admin-bar-fluent_plus_addon #wp-admin-bar-fluent_plus_addon_node {
+  min-width: 800px !important;
+}
+li#wp-admin-bar-fluent_plus_addon #wp-admin-bar-fluent_plus_addon_node a {
+  padding: 0;
+}
+
+li#wp-admin-bar-fluent_plus_addon:hover a {
+  background: #7757E6 !important;
+  color: white !important;
+}
+
+.fluent-plus-addon-container {
+  background: white !important;
+  box-shadow: rgba(100, 100, 111, 0.08) 0px 7px 29px 0px !important;
+  padding: 1rem !important;
+  margin-top: -6px !important;
+  border: 1px solid #7757e6 !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-title h3 {
+  font-size: 16px !important;
+  line-height: 26px !important;
+  font-weight: normal !important;
+  border-bottom: 2px solid rgba(229, 226, 226, 0.21) !important;
+  padding-bottom: 1rem !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-footer {
+  text-align: center !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-footer img {
+  max-height: 20px !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper {
+  display: grid !important;
+  grid-template-columns: 0.8fr 2fr !important;
+  grid-gap: 1rem !important;
+  align-items: start !important;
+  margin: 0.5rem 0 !important;
+  border: 1px solid rgba(229, 226, 226, 0.45) !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-left-sidebar ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-left-sidebar ul li {
+  border: 1px solid rgba(229, 226, 226, 0.45) !important;
+  border-bottom: none !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  color: black !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-left-sidebar ul li:first-child {
+  border-top: none !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-left-sidebar ul li:last-child {
+  border-bottom: 1px solid rgba(229, 226, 226, 0.45) !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-left-sidebar ul .active {
+  background: #7757E6 !important;
+  color: white !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-right-sidebar {
+  padding: 1rem 0.5rem !important;
+  position: relative !important;
+  max-height: 350px;
+  overflow-y: auto;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-right-sidebar h3 {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-right-sidebar #dn_fa {
+  background: #7757E6 !important;
+  color: white !important;
+  font-size: 18px !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-right-sidebar .fluent-plus-crm-contents {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  grid-gap: 1rem !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-right-sidebar .fluent-plus-crm-contents .fluent-crm-cards {
+  background: white !important;
+  box-shadow: rgba(100, 100, 111, 0.08) 0px 7px 29px 0px !important;
+  padding: 0.5rem 0.4rem !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-direction: column !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-right-sidebar .fluent-plus-crm-contents .fluent-crm-cards span {
+  color: black;
+  font-size: 16px !important;
+}
+.fluent-plus-addon-container .fluent-plus-addon-wrapper .fluent-plus-addon-content-wrapper .fluent-plus-right-sidebar .fluent-plus-crm-contents .fluent-crm-cards .dn-fa-count {
+  background: #7757E6 !important;
+  color: white !important;
+  font-size: 16px !important;
+  min-width: 100px !important;
+  font-weight: 600 !important;
+  margin: auto !important;
+}
+
+/*# sourceMappingURL=fluent-plus-addon.css.map */
